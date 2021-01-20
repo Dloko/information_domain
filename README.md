@@ -1,7 +1,6 @@
 # information_domain
-esse codigo e usado para encontrar informações de um certo site e dominios relacionados.
+Esse código é usado para encontrar informações de um certo site e domínios relacionados.
 # como usar
-ao executar o codigo você tera que escrever um dominio(Aviso: sem www, gov e etc), para que funcione você precisa ter um arquivo para amazerna as informações
-(meu caso teste.txt) e uma wordlist (lista_teste.txt).
+Ao executar o código você precisa que escrever um domínio(Aviso: sem www, gov e etc), precisa ter um arquivo para armazenar as informações (no meu caso teste.txt) e uma wordlist (lista_teste.txt).
 # como funciona 
-O codigo primeramente deleta tudo dentro do "teste.txt", por mais que o codigo seja em python, ele usa algums comandos do sistema como "whois", "sort -u" e mais algums, tambem usa algumas bibliotecas do python como "os".
+o código primeramente deleta tudo dentro do "teste.txt", por mais que o código seja em python, ele usa alguns comandos do sistema como "whois", "sort -u" e mais alguns, também usa algumas bibliotecas do python como "os".
